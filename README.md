@@ -62,7 +62,7 @@ Next, we will click the drop-down for Computer Configuration, Policies, Windows 
 ![image](https://github.com/user-attachments/assets/a2b21406-c968-495a-8e72-aa69a94858e8)
 
 <p>
-We need to update Group Policy on Client-1 so that this rule is in place. Back in Client-1 as Jane admin, we will want to run Command Prompt as an administrator, type gpupdate /force and hit enter. We can then run gpresult /r to see when it was last applied.
+We need to update Group Policy on Client-1 so that this rule is in place. Back in Client-1 as Jane admin, we will want to run Command Prompt as an administrator, type gpupdate /force, and hit Enter. We can then run gpresult /r to see when it was last applied.
 
 </p>
 
@@ -83,3 +83,7 @@ If we go back, you can now see that we can log in as John Smith.
 </p>
 
 ![image](https://github.com/user-attachments/assets/08895cc3-a9a8-4466-812c-630c16260fd0)
+
+<p>
+You can do so many things with GP, pretty much anything you can think of, but we are done with these machines for the scope of the activity. Go ahead and delete the resource group along with the VM if you are all done, or if you would like, feel free to play around to learn more in the new environment that you created.
+</p>
